@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+
+  <display-name>Vitrine2</display-name>
+    <servlet> 
+  <servlet-name>MainServlet</servlet-name>
+  <servlet-class>ma.lsi.controller.ServletInternaute</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MainServlet</servlet-name>
+  <url-pattern>/ServletInternaute</url-pattern>
+  </servlet-mapping>
+  
+    <servlet> 
+  <servlet-name>Main2Servlet</servlet-name>
+  <servlet-class>ma.fstt.servlets.ServletVitrine</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Main2Servlet</servlet-name>
+  <url-pattern>/ServletVitrine</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+      <servlet> 
+  <servlet-name>MainServlet</servlet-name>
+  <servlet-class>ma.fstt.servlets.InscriptionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>MainServlet</servlet-name>
+  <url-pattern>/serv</url-pattern>
+  </servlet-mapping>
+      <servlet> 
+  <servlet-name>PanierServlet</servlet-name>
+  <servlet-class>ma.fstt.servlets.PanierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>PanierServlet</servlet-name>
+  <url-pattern>/PanierServlet</url-pattern></servlet-mapping>
+ 
+     
+  
+</web-app></element>
