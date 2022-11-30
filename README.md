@@ -2,7 +2,7 @@
 Ce travail entre dans le cadre d'une atelier qui sert à appliquer nos connaissances en jpa et en mvc2 pour construire un site web e-commerce , qui se base sur le diagramme de classe suivant :
 ![WhatsApp Image 2022-11-30 at 01 07 48](https://user-images.githubusercontent.com/85033376/204676363-75a35b9c-5fb9-4553-8e4e-0362b1aba201.jpeg)  
 Ce site offre la possibilité de s'inscrire et se connecter autant qu'utilisateur ordinaire et avoir la possibilité de consulter la liste des categories des vetements    offerts par le propriétaire du site , ainsi que la consultation des articles sous une certaine catégorie et les commander , et puis consulter le panier qui contient la   articles commandés et leur quantité et valider ce panier , l'utilisateur peut aussi se deconnecter de sa session .  
-Description :  
+DESCRIPTION :  
 L'architecture du projet se compose des elements suivants :  
 Deux packages :   
 ma.fstt.persistence : Contient les entités .  
@@ -10,10 +10,10 @@ ma.fstt.servlet : contient les servlets qui vont gerer le tout.
 fichier persistence.xml qui contient la configuration du projet à savoir le nom de la base de donnée à utiliser et les differentes classes entités.  
 Un dossier ressources qui se situe dans webapp qui contient quelques images qu'on a utilisé pour la bonne description des articles.  
 Un fichier pom.xml qui contient les differentes dépendences sur lequelles on a compté pour garantir la connexion à la base de données et la création des tables.  
-Clarification :  
+CLARIFICATION :  
 Un client va avoir un seul panier , qui va contenier plusieurs articles d'ou en ajoute une table association PanierArticle qui va traduire la relation manytomany entre ces deux entités.  
 Une categorie contient plusieurs articles , et un article appartient à une seule categorie.  
-Demonstration :  
+DEMONSTRATION :  
 localhost:[PORT]/Vitrine2/ServletInternaute
 ![image](https://user-images.githubusercontent.com/85033376/204678365-017b042b-24ac-4f5f-bc17-3de689bb898d.png)
 On choisit Inscription en premier pour créer un compte : 
