@@ -1,7 +1,7 @@
 # Site-web-e-commerce-MVC2-et-JPA
 Ce travail entre dans le cadre d'une atelier qui sert à appliquer nos connaissances en jpa et en mvc2 pour construire un site web e-commerce , qui se base sur le diagramme de classe suivant :
 ![WhatsApp Image 2022-11-30 at 01 07 48](https://user-images.githubusercontent.com/85033376/204676363-75a35b9c-5fb9-4553-8e4e-0362b1aba201.jpeg)
-Ce site offre la possibilité de s'inscrire et se connecter autant qu'utilisateur ordinaire et avoir la possibilité de consulter la liste des categories des vetements offerts par le propriétaire du site , ainsi que la consultation des articles sous une certaine catégorie et les commander , et puis consulte le panier qui contient la articles commandés et leur quantité et valider ce panier , l'utilisateur peut aussi se deconnecter de sa session .
+Ce site offre la possibilité de s'inscrire et se connecter autant qu'utilisateur ordinaire et avoir la possibilité de consulter la liste des categories des vetements offerts par le propriétaire du site , ainsi que la consultation des articles sous une certaine catégorie et les commander , et puis consulter le panier qui contient la articles commandés et leur quantité et valider ce panier , l'utilisateur peut aussi se deconnecter de sa session .
 Description :
 L'architecture du projet se compose des elements suivants :
 Deux packages : 
