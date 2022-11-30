@@ -29,6 +29,9 @@ On commande un article en cliquant sur commander,
 il vous dirige une autre fois à la meme page pour commander encore une fois ou vous pouvez simplemet consulter votre panier et le valider :
 ![image](https://user-images.githubusercontent.com/85033376/204678919-94a28ab1-fa98-412e-83e4-a3850fd8df92.png)
 ![image](https://user-images.githubusercontent.com/85033376/204678939-9b96a1b1-dc61-4cc3-9e74-3ae4c7b89c96.png)
+ou encore supprimer l'article de votre panier avec le boutton "Delete" :
+![image](https://user-images.githubusercontent.com/85033376/204679277-0ee37a0f-90ed-408e-8192-e7bc775c2260.png)
+
 Enfin , vous avez la possibilité de se déconnecter via ce boutton :
 ![image](https://user-images.githubusercontent.com/85033376/204679047-afd60bde-fb08-4b4f-8e49-49081164cb00.png)
 
